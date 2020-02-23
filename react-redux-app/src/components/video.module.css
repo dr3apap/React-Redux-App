@@ -1,0 +1,45 @@
+.parent {
+ display: flex;
+ flex-flow: column;
+ align-items: center;
+}
+
+.videoContainer {
+ width: 70%;
+ justify-content: space-evenly;
+}
+
+.header {
+ padding: 7px;
+ margin: 2em 2em;
+ text-align: center;
+ background-color: lightcyan;
+ font-size: 1.8em;
+ color: dodgerblue;
+ margin-top: 0.8em;
+ border-radius: 12px;
+}
+
+.title {
+
+ padding: 5px;
+ background: #f1f1f1;
+ color: orange;
+ line-height: 2em;
+ border-radius: 10px;
+}
+
+.date {
+ font-size: 1.2em;
+ padding: 3px;
+ border-bottom: 5px solid green;
+ margin-bottom: 3px;
+ color: whitesmoke;
+}
+
+.League {
+ font-size: 1em;
+ padding: 10px;
+ background: #00a35e;
+ color: whitesmoke;
+}
